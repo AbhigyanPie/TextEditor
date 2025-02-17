@@ -9,7 +9,6 @@ A real-time collaborative text editor built using the MERN stack (MongoDB, Expre
 ✅ **Unique Document URLs**: Each document has a unique ID and is accessible via its link.  
 ✅ **Rich Text Editing**: Implemented with Quill.js for a smooth editing experience.  
 ✅ **WebSockets for Fast Communication**: Uses **Socket.io** for instant content updates.  
-✅ **Minimal UI with a Focus on Collaboration**.  
 
 ---
 
