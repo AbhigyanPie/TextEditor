@@ -48,16 +48,7 @@ npm install
 cd ../frontend
 npm install
 ```
-
-### 3️⃣ Setup Environment Variables
-Create a `.env` file in the **backend** directory and add:
-```env
-PORT=5000
-MONGO_URI=your-mongodb-connection-string
-CLIENT_ORIGIN=http://localhost:3000
-```
-
-### 4️⃣ Run the Application
+### 3️⃣ Run the Application
 #### Start Backend Server
 ```bash
 cd backend
