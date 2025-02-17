@@ -1,0 +1,136 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F3F3F3;
+    margin:0;
+}
+
+.container .ql-editor{
+    width:8.27in;
+    min-height: 11.69in;
+    padding:0.5in;
+    margin: 1rem;
+    box-shadow:0 0 5px 0 rgba(0,0,0,0.5);
+    background-color: white;
+}
+
+.container .ql-container.ql-snow{
+    border:none;
+    display:flex;
+    justify-content: center;
+}
+
+.container .ql-toolbar.ql-snow{
+    display:flex;
+    justify-content: center;
+    position:sticky;
+    top:0;
+    z-index:1;
+    background-color:rgb(0 98 255 / 5%);
+    border:none;
+    box-shadow: 0 0 5px 0 rgba(0,0,0,0.5);
+    margin: 2px;
+    border-radius: 20px;
+    /* height: 35px; */
+}
+
+@page{
+    margin:1in;
+}
+
+@media print{
+    body{
+        background:none;
+    }
+    .container .ql-editor{
+        width:6.5in;
+        height:9in;
+        padding:0;
+        margin:0;
+        box-shadow: none;
+        align-self: flex-start;
+    }
+
+    .container .ql-toolbar .ql-snow{
+        display:none;
+    }
+}
+
+/* Home Page */
+.home-container {
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: white;
+  }
+  
+  .create-btn {
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: 0.3s;
+  }
+  
+  .create-btn:hover {
+    background-color: rgb(0 98 255 / 100%);
+  }
+  
+  .content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: -13rem;
+    margin-right:50rem;
+    padding:189px;
+    font-size: 27px;
+  }
+
+  .editor-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 20px;
+    background-color: white;
+    /* border-bottom: 2px solid #ccc; */
+    height: 40px;
+  }
+
+  .navbar .container{
+    display: flex;
+    position: sticky;
+  }
+  
+  .doc-title {
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    background: none;
+    outline: none;
+    padding: 5px;
+    width: 300px;
+  }
+  
+  .last-saved {
+    font-size: 14px;
+    color: #666;
+  }
+  
